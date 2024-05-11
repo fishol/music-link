@@ -1,0 +1,140 @@
+/* 设置播放器和播放器内链接的文本颜色为蓝色 */
+#player, #player a {
+    color: #58b9fd;
+}
+
+/* 设置播放器的背景图片为指定的图片，并在底部对齐，背景颜色为白色 */
+#player {
+    background: url(http://static.tumblr.com/mky4cgu/8LCma3hn7/branca.png);
+    background-position: bottom;
+    background-color: transparent;
+}
+
+/* 设置播放器内主要图像的背景图片为指定的图片 */
+#player .mainImage {
+    background: url(http://static.tumblr.com/mky4cgu/wxdmbhpaj/simplesazul.png);
+}
+
+/* 设置左侧基础部分的宽度为93像素 */
+#player #baseLeft {
+    width: 93px;
+}
+
+/* 设置右侧基础部分的宽度为145像素 */
+#player #baseRight {
+    width: 145px;
+}
+
+/* 设置按钮的宽度为26像素 */
+#player .button {
+    width: 26px;
+}
+
+/* 设置播放按钮的背景图片为指定的图片 */
+#player #play {
+    background: url(http://static.tumblr.com/mky4cgu/J9Smbhpbk/player4.png);
+}
+
+/* 将播放和暂停按钮的左侧边距设置为26像素 */
+#player #play,
+#player #pause {
+    left: 26px;
+}
+
+/* 将上一曲按钮的左侧边距设置为0像素 */
+#player #previous {
+    left: 0px;
+}
+
+/* 将下一曲按钮的左侧边距设置为52像素 */
+#player #next {
+    left: 52px;
+}
+
+/* 将标题（歌曲名）的左侧边距设置为90像素 */
+#player #title {
+    left: 90px;
+}
+
+/* 将提示框的右侧边距设置为196像素 */
+#player #tooltip {
+    right: 196px;
+}
+
+/* 将计时器（播放时间显示）的右侧边距设置为120像素 */
+#player #timer {
+    right: 120px;
+}
+
+/* 将播放列表的右侧边距设置为0像素 */
+#player #list {
+    right: 0px;
+}
+
+/* 将进度条的右侧边距设置为320像素 */
+#player #seeker {
+    right: 320px;
+}
+
+/* 设置进度条底部的边框颜色为白色 */
+#player #seekerBase {
+    border-color: transparent;
+}
+
+/* 设置进度条已缓冲部分的背景颜色为蓝色 */
+#player #seekerBuffered {
+    background-color: #58b9fd;
+}
+
+/* 设置进度条滑块的背景颜色为白色 */
+#player #seekerSliderBase {
+    background-color: transparent;
+}
+
+/* 设置音量控制条的宽度为65像素，并将其右侧边距设置为39像素 */
+#player #volume {
+    width: 65px;
+    right: 39px;
+}
+
+/* 设置音量控制条滑块的宽度为8像素，并设置其背景图片为指定的图片 */
+#player #volumeSlider {
+    width: 8px;
+    background: url(http://static.tumblr.com/mky4cgu/4qhm8rjbx/barrinabraaanca.png);
+}
+
+/* 设置播放列表及其模块和标题的边框颜色为灰色 */
+#playlist,
+#playlist .module,
+#playlist h3 {
+    border-color: #ddd;
+}
+
+/* 设置播放列表模块的文本颜色为蓝色，背景颜色为白色 */
+#playlist .module {
+    color: #58b9fd;
+    background-color: transparent;
+}
+
+/* 设置播放列表标题的背景图片为指定的图片，文本颜色为粉红色，背景颜色为白色 */
+#playlist h3 {
+    background: url(http://dl.dropbox.com/u/58708531/bar2.jpg);
+    color: #faacca;
+    background-color: transparent;
+}
+
+/* 设置偶数行的背景颜色为白色 */
+#playlist .even {
+    background-color: transparent;
+}
+
+/* 设置奇数行的背景颜色为白色 */
+#playlist .odd {
+    background-color: transparent;
+}
+
+/* 设置焦点行的背景颜色为白色，文本颜色为灰色 */
+#playlist .focus {
+    background-color: transparent;
+    color: #aaa;
+}
